@@ -25,7 +25,7 @@ git 환경변수 설정
 
 권한으로 업로드 버그생김
 자격증명 확인
-git remote set-url origin https://elese0821@github.com/github-elese0821/vite-project.git
+git remote set-url origin https://elese0821@github.com/elese0821/vite-project.git
 
 git init
 git add README.md
