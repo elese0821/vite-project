@@ -1,0 +1,14 @@
+@import url("https://websfont.github.io/nanumSquareNeo/nanumSquareNeo.css");
+@import url("https://websfont.github.io/gmarket/gmarket.css");
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+.Lora {
+    font-family: "Lora";
+}
+
+.nanum {
+    font-family: "nanumSquareNeo";
+}
+
+.gmarket {
+    font-family: "gmarket";
+}

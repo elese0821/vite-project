@@ -1,6 +1,9 @@
 # vite를 이용한 포트폴리오 사이트 만들기
 
 ## vite를 사용하는 이유
+
+1. [vite](https://kovitejs.dev/guide/)
+
 Vite는 현대적인 프론트엔드 개발을 위한 빠른 도구입니다. 다음은 Vite를 사용하는 이유 중 일부입니다:
 
     1. 빠른 개발 서버: Vite는 빠른 개발 서버를 제공하여 코드 변경 시 즉각적으로 반영되어 빠른 개발 속도를 유지합니다.
@@ -14,7 +17,9 @@ Vite는 현대적인 프론트엔드 개발을 위한 빠른 도구입니다. �
     6. 성능: Vite는 빠른 번들링 속도와 작은 번들 크기를 제공하여 웹 애플리케이션의 초기로딩 속도를 개선합니다.
 
     7. Vue 및 React 등 프레임워크 지원: Vue나 React와 같은 인기 있는 프레임워크를 지원하여 이러한 프레임워크로 개발할 때 최적의 도구로 활용됩니다.
-1. [vite](https://kovitejs.dev/guide/)
+
+## 구현 기능
+- 구글 폰트 적용
 
 
 ## 트러블 슈팅 
@@ -34,3 +39,7 @@ git branch -M main
 git remote add origin https://github.com/elese0821/vite-project.git
 git push -u origin main
 </details>
+
+# 순서
+- 깃 연동 
+- css setting 
