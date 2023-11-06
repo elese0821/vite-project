@@ -1,1 +1,79 @@
-h1 {}
+#footer {
+    width: 100%;
+    font-family: var(--mainNum-font);
+}
+
+.footer__inner {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.footer__text {
+    display: flex;
+    width: 100%;
+    border-top: 1px solid var(--subBg400);
+    border-bottom: 1px solid var(--subBg400);
+    font-size: 1.2rem;
+    padding: 0 0.5rem;
+    margin-bottom: 4rem;
+    font-family: var(--mainEng-font);
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.footer__text div {
+    width: 50%;
+}
+
+.footer__text div:nth-child(2) {
+    text-align: right;
+}
+
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer__info .left {
+    width: 45%;
+
+}
+
+.footer__info .left .title {
+    border-top: 1px solid var(--mainBg-color);
+    border-bottom: 1px solid var(--mainBg-color);
+}
+
+.footer__info .left .title a {}
+
+.footer__info .left .desc {}
+
+.footer__info .right {
+    width: 45%;
+}
+
+.footer__info .right h3 {
+    border-top: 1px solid var(--mainBg-color);
+    border-bottom: 1px solid var(--mainBg-color);
+}
+
+.footer__info .right ul {}
+
+.footer__info .right ul li {}
+
+.footer__info .right ul li a {}
+
+.footer__info .right ul li em {
+    display: none;
+}
+
+
+
+.footer__right {
+    width: 100%;
+}

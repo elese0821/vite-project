@@ -18,24 +18,35 @@
 }
 
 .header__logo {
-    width: 100%;
-    text-transform:capitalize;
     color: var(--subBg400);
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    width: 200px;
 }
+
 .header__logo a {
     transition: color 0.3s;
+    color: var(--subBg300);
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    align-items: center;
 }
-.header__logo a:hover {
+
+.header__logo:hover em {
     color: var(--subBg500);
 }
+
 .header__logo em {
     display: block;
     font-size: 1.2rem;
+    color: var(--subBg400);
+    transition: color 0.3s;
+    text-transform: uppercase;
 }
+
 .header__nav {
-    width: 100%;
+    width: calc(100% - 200px);
     display: flex;
     flex-direction: row-reverse;
     font-weight: 600;
@@ -48,8 +59,9 @@
 .header__nav li {
     text-align: center;
     color: var(--mainBg-color);
-    font-weight: 800;
+    font-weight: 500;
     box-sizing: border-box;
+    font-size: 1.2rem;
 
 }
 
@@ -77,7 +89,8 @@
     transform: scaleX(0);
     transition: all 0.3s;
 }
-.header__nav li a:hover::before{
+
+.header__nav li a:hover::before {
     transform: scaleX(1);
 }
 
@@ -123,9 +136,11 @@
     .header__nav {
         display: none;
     }
+
     .header__nav.show {
         display: block;
     }
+
     .header__nav.show ul {
         display: block;
         position: absolute;
@@ -135,25 +150,29 @@
         min-width: 159px;
         padding: 20px 0;
         border-radius: 0 0 15px 15px;
-        box-shadow: -1px 2px 2px rgba(0,0,0,.1);
+        box-shadow: -1px 2px 2px rgba(0, 0, 0, .1);
         backdrop-filter: blur(2px);
         background-color: #2b3230a6;
     }
+
     .header__nav.show ul li {
         display: block;
     }
 
-    .header__nav.show + .header__nav__mobile span::before {
+    .header__nav.show+.header__nav__mobile span::before {
         width: 20px;
     }
-    .header__nav.show + .header__nav__mobile span::after {
+
+    .header__nav.show+.header__nav__mobile span::after {
         width: 20px;
     }
+
     .header__nav.show li a {
-        display: inline-block;        
+        display: inline-block;
         padding: 10px;
-        }
-        .header__nav__mobile {
-            display: block;
-        }
     }
+
+    .header__nav__mobile {
+        display: block;
+    }
+}

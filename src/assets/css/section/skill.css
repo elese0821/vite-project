@@ -5,6 +5,7 @@
     color: var(--subBg300);
     height: 100%;
 }
+
 .skill__title {
     position: sticky;
     top: 70px;
@@ -14,28 +15,29 @@
     font-size: 4vw;
     font-weight: 900;
     line-height: 1.6;
-    font-family: var(--mainKor-font);
     text-transform: uppercase;
     color: var(--subBg300);
-    border-bottom: 0.5vw solid var(--subBg500);
+    border-bottom: 0.5vw solid var(--subBg400);
 }
+
 .skill__title em {
-    font-family: var(--mainNum-font);
     font-size: 1.25rem;
     font-weight: 400;
 }
+
 .skill__desc {
     width: 50%;
 }
+
 .skill__desc span {
     font-size: 5vw;
     line-height: 1;
     font-weight: 900;
-    font-family: var(--mainKo-font);
     display: block;
     margin-bottom: 2vw;
     color: var(--subBg300);
 }
+
 .skill__desc h3 {
     font-size: 1.3rem;
     text-decoration: underline;
@@ -49,24 +51,28 @@
     font-size: 1.1rem;
     word-break: keep-all;
     color: var(--subBg300);
-
 }
-.skill__desc > div {
+
+.skill__desc>div {
     margin-bottom: 30vh;
 }
-@media (max-width: 800px){
+
+@media (max-width: 800px) {
     .skill__inner {
         flex-direction: column;
     }
+
     .skill__title {
         width: 100%;
         margin-bottom: 10vw;
         height: auto;
         background-color: var(--);
     }
+
     .skill__desc {
         width: 100%;
     }
+
     .skill__desc span {
         font-size: 20vw;
     }

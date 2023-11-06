@@ -1,1 +1,87 @@
-h1 {}
+#port {
+    width: 100%;
+    overflow: hidden;
+}
+
+.port__inner {
+    padding: 16px;
+}
+
+.port__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 7000px;
+    padding-top: 20px;
+}
+
+.port__title {
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 5vw;
+    font-size: 4vw;
+    font-weight: 900;
+    line-height: 1.6;
+    text-transform: uppercase;
+    color: var(--white300);
+    border-bottom: 0.5vw solid var(--subBg400);
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.port__title em {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.port__item {
+    width: 500px;
+    height: 70vh;
+    margin-right: 40px;
+    padding: 2rem;
+    word-break: keep-all;
+    background-color: var(--subBg600);
+    text-align: center;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.port__item .num {
+    font-size: 5rem;
+    font-family: 'Geologica';
+    position: absolute;
+    top: -6rem;
+    left: 0.2rem;
+    font-weight: 800;
+    color: var(--subBg600);
+}
+
+
+.port__item h3 {
+    font-size: 1.3rem;
+    color: var(--subBg400);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--mainBg-color);
+    font-weight: 800;
+}
+
+.port__item p {
+    font-size: 1rem;
+    color: var(--subBg300);
+    line-height: 1.6;
+}
+
+.port__item a {
+    width: 100%;
+    height: 270px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.port__item a img {
+    width: 100%;
+    height: 100%;
+}

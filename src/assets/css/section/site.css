@@ -11,10 +11,9 @@
     font-size: 4vw;
     font-weight: 900;
     line-height: 1.6;
-    font-family: var(--mainNum-font);
     text-transform: uppercase;
     color: var(--white300);
-    border-bottom: 0.5vw solid var(--subBg500);
+    border-bottom: 0.5vw solid var(--subBg400);
     margin-bottom: 100px;
 }
 
@@ -35,7 +34,7 @@
 }
 
 .site__item.s1 {
-    background-color: var(--subBg100);
+    background-color: var(--subBg600);
     top: 180px;
 }
 
@@ -45,12 +44,12 @@
 }
 
 .site__item.s3 {
-    background-color: var(--subBg300);
+    background-color: var(--mainBg-color);
     top: 220px;
 }
 
 .site__item.s4 {
-    background-color: var(--subBg400);
+    background-color: var(--subBg500);
     top: 240px;
 }
 
