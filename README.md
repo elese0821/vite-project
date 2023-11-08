@@ -2,7 +2,7 @@
 
 ## vite를 사용하는 이유
 
-1. [vite](https://kovitejs.dev/guide/)
+1. [vite](https://kovitejs.dev/guide/](https://glittering-puffpuff-cea1d0.netlify.app)
 
 Vite는 현대적인 프론트엔드 개발을 위한 빠른 도구입니다. 다음은 Vite를 사용하는 이유 중 일부입니다:
 
