@@ -84,18 +84,7 @@ img {
     vertical-align: top;
     width: 100%;
 }
-.intro__text .img {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    width: 30vh;
-    height: 30vh;
-    border-radius: 50%;
-    overflow: hidden;
-    filter: grayscale(100%);
-    transition: all .3s;
-}
+
 /* 스킵메뉴 */
 #skip a {
     position: absolute;
